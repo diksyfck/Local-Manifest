@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="dikiawan-9"
-          fetch="https://github.com/Prashant-1695" />
+          fetch="https://github.com/dikiawan-9" />
   
   <remote name="posp"
           fetch="https://github.com/PotatoProject" />  

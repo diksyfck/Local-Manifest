@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+<remote name="dikiawan-9" fetch="https://github.com/dikiawan-9" />
+<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+<remote name="nexus" fetch="https://github.com/projects-nexus" /> 
 
-  <remote name="dikiawan-9"
-          fetch="https://github.com/dikiawan-9" />
-  
-  <remote name="posp"
-          fetch="https://github.com/PotatoProject" />  
-  
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="dikiawan-9" revision="12.1" /> 
-  
+     <!--Trees-->
+
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="dikiawan-9" revision="12.1" />
+           
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="dikiawan-9" revision="12.1" />
+
+  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="dikiawan-9" revision="a12" />
   
-  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="dikiawan-9" revision="a12" /> 
- 
+    <!-- Toolchain -->
+
+  <!--project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" /-->
+
 </manifest>
+
+

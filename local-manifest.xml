@@ -1,1 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
+      <remote name="dikiawan"
+          fetch="https://github.com/dikiawan-9" />       
+      
+      <remote name="nexus"
+          fetch="https://github.com/projects-nexus" />
+
+<!-- Trees -->
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="dikiawan" revision="12.1" clone-depth="1" />
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="dikiawan" revision="12.1" clone-depth="1" />
+  
+<!-- kernel -->
+  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="a12-qti" clone-depth="1" />
+
+</manifest>
